@@ -1,0 +1,1 @@
+print(", ".join(["\033[32mFizzbuzz\033[0m" if (i%3 == 0 and i %5 == 0) else "\033[34mFizz\033[0m" if (i%3 == 0) else "\033[33mBuzz\033[0m" if (i%5 == 0) else str(i) for i in range(1,101)]))
