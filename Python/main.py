@@ -1,10 +1,5 @@
 # coding: utf-8
 
-# import modules
-import random    #! !!!!!!!!!!!!!!!!!!!!
-
-# additional codes
-import variables as var   #! !!!!!!!!!!!!!!!!!!!!
 
 def main():
     """
