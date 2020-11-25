@@ -7,12 +7,13 @@ class Converter():
     @staticmethod
     def ask_which_converter():
 
-        print("\n----------------------------------------------------------------------")
+        print("\n\n----------------------------------------------------------------------")
         print("   Convertisseur de chiffre arabe en chiffre romain, et inversement.")
         print("----------------------------------------------------------------------")
         print()
 
-        converter_choice = (input("Tape 'R' si tu veux obtenir un nombre romain (à partir d'un nombre arabe)\n ou 'A' si tu veux obtenir un nombre arabe (à partir d'un nombre romain) : ")).upper()
+        converter_choice = (input("Tape 'R' si tu veux obtenir un nombre romain (à partir d'un nombre arabe)\n"+ 
+        "  ou 'A' si tu veux obtenir un nombre arabe (à partir d'un nombre romain) : ")).upper()
 
     
         if converter_choice == "R":
