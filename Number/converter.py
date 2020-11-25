@@ -7,7 +7,7 @@ class Converter():
     @staticmethod
     def ask_which_converter():
 
-        print("\n----------------------------------------------------------------------")
+        print("\n\n----------------------------------------------------------------------")
         print("   Convertisseur de chiffre arabe en chiffre romain, et inversement.")
         print("----------------------------------------------------------------------")
         print()
